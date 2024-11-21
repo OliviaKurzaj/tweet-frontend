@@ -1,0 +1,147 @@
+.containerHome{
+    display: flex;
+
+    height: 100vh;
+
+    color: whitesmoke;
+}
+
+.logo{
+    font-size: 2.5rem;
+
+    cursor: pointer;
+}
+
+/* profil */
+
+.containerProfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 20vw;
+
+    padding: 8px 8px;
+    border-right: grey solid 1px;
+}
+
+.contentProfil{
+    display: flex;
+    align-items: center;
+}
+
+.username{
+    margin : 0px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.nickname{
+    margin : 0px;
+    color: gray;
+}
+
+.nickname::before {
+    content: "@";
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    
+    margin-right: 16px;
+    background-color: rgb(0, 210, 210);
+    border-radius: 100%;
+
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/*tweets*/
+
+.containerTweet{
+    /* display: flex; */
+
+    width: 50vw;
+
+    padding: 8px 8px 0;
+}
+
+.titleSection{
+    color: whitesmoke;
+    font-size: 24px;
+    margin: 0 0 24px;
+}
+
+.wrapTweet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 30vh;
+
+    border-bottom: solid 1px grey;
+}
+
+.wrap{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    align-self: flex-end;
+    padding-right: 10%;
+}
+
+.inputTweet{
+    width: 80%;
+    height: 2rem;
+    background-color: transparent;
+    border-bottom: grey solid 1px;
+
+    text-align: left;
+
+    color: whitesmoke;
+}
+
+
+
+/*trends*/
+
+.containerTrends{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 30vw;
+
+    padding: 8px 8px 0;
+    border-left: grey solid 1px;
+}
+
+.wrapTrends{
+    background-color: rgba(128, 128, 128, 0.116);
+    border-radius: 16px;
+    padding: 12px;
+}
+
+.contentTrends{
+    padding: 8px;
+}
+
+.hashtag{
+    margin:0;
+    color: #0e8ff3; 
+    font-size: 10px;
+
+    cursor: pointer;
+}
+
+.counterHashtag{
+    margin:0;
+    color: gray;
+    font-size: 8px;
+}

@@ -1,0 +1,20 @@
+.containerComposantTweet{
+    border-bottom: grey solid 1px;
+
+    padding: 1rem;
+}
+
+.time{
+    font-weight: 100;
+    color: grey;
+}
+
+.time::before{
+    content: '-';
+}
+
+.icon{
+    padding: 8px 8px 0;
+
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+.contenuGlobal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.imgPigeon{
+    background: radial-gradient(circle, rgba(19,66,251,1) 0%, rgba(148,187,233,1) 100%);
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grosPigeon{
+    height: 95vh;
+}
+
+.contenuLog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 60vw;
+    margin-left: 5%;
+    color: white;
+}
+
+.contenuTexte{
+margin-bottom: 10px;
+}
+
+.titre{
+    font-size: 90px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.plume{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.soustitre{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.modalSignIn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    height: 35vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    background-color: #151d26;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    z-index: 1;
+}
